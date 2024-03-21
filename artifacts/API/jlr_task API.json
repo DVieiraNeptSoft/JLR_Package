@@ -1,0 +1,378 @@
+{
+	"id": "219d16d7-eab9-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-23T12:27:58.730Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "7af05ee9-d614-437c-983f-5bcdd35a266a",
+			"path": "/jlr_task",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "jlr_task"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "54571037-ea60-418e-a2f1-14489e7808d2",
+			"path": "/jlr_task",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "jlr_task"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "jlr_task"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "eb2afcb7-7e32-4141-893c-9c3306a54b67",
+			"path": "/jlr_task",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "jlr_task"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "jlr_task"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ea9329c6-c11b-4377-8206-65a9217af72d",
+			"path": "/jlr_task",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "jlr_task"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "dcf787a2-0181-4757-ba34-7fbd1138a801",
+			"path": "/jlr_task/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "9a40d862-fa98-4be8-adba-8760285d09dc",
+			"name": "jlr_task",
+			"properties": [
+				{
+					"id": "fc1ddd30-11ff-48b8-b797-3cedcfbbd871",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "67002b3f-453a-45ab-81dd-c49681b560b1",
+					"parent": "",
+					"name": "colleagueId",
+					"description": "ID",
+					"objectType": "integer"
+				},
+				{
+					"id": "f909decb-8892-4db1-a819-392a3940df38",
+					"parent": "",
+					"name": "taskCode",
+					"description": "Task Code",
+					"objectType": "string"
+				},
+				{
+					"id": "d58952b0-6f27-48c1-af6e-bf73f8d1db90",
+					"parent": "",
+					"name": "description",
+					"description": "Description",
+					"objectType": "string"
+				},
+				{
+					"id": "97ad60ec-8793-459e-96f5-9212eaf6d889",
+					"parent": "",
+					"name": "pi",
+					"description": "PI",
+					"objectType": "number"
+				},
+				{
+					"id": "40ff2f67-cf2b-4a48-bed9-87e7f1524cc2",
+					"parent": "",
+					"name": "occurrences",
+					"description": "Occurrences",
+					"objectType": "integer"
+				},
+				{
+					"id": "49be71bf-a22a-44f6-bdf6-0d91009e1c4b",
+					"parent": "",
+					"name": "stdHours",
+					"description": "Std Hours",
+					"objectType": "number"
+				},
+				{
+					"id": "202fd570-7f57-4613-b1ce-332bc134de39",
+					"parent": "",
+					"name": "totalHours",
+					"description": "Total Hours",
+					"objectType": "number"
+				},
+				{
+					"id": "05399092-8180-45c8-bc09-49807b8664d7",
+					"parent": "",
+					"name": "idleHours",
+					"description": "Idle Hours",
+					"objectType": "number"
+				},
+				{
+					"id": "8f12a450-1cbc-4e66-907c-74af8fd6fa43",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "7481d375-9425-4997-b920-35fd737dfd06",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "b8b63314-1fb2-49ac-8a3b-579aef5e0d46",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "5506cb67-81f7-4f26-8ffd-a372add2e04c",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "8b1e967b-dd0a-44f6-8858-9b21dfdd8b89",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "434d8ec4-ad37-460c-9df6-62f3198fd825",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "562958bb-f556-458d-8d4c-2ef1c8118a3a",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "9f43283c-5863-45d5-84fa-2fe69a59a02a",
+			"name": "count",
+			"properties": [
+				{
+					"id": "ae8c3f19-1f5f-4ed4-92ab-b240698bc820",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "jlr_task API",
+	"endpoint": "/api/entity",
+	"ver": "24.2.5.160",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

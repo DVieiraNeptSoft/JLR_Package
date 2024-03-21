@@ -1,0 +1,17 @@
+{
+	"id": "eba14c93-b2ba-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-24T12:17:44.330Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "7d86cc14-b2ba-ee11-b661-0022489e2ba0"
+	},
+	"documentation": {},
+	"name": "jlr_chart_performance",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "24.2.5.164",
+	"disabled": false,
+	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e"
+}

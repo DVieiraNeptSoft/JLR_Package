@@ -1,0 +1,255 @@
+{
+	"id": "cc8e4f70-afba-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-24T11:55:28.860Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "38b16d64-4899-4dca-b1bc-163eb8eae9ca",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "a7dfc1e7-f511-484b-f7cc-8639fb804d35",
+					"fieldName": "Page",
+					"fieldParent": "38b16d64-4899-4dca-b1bc-163eb8eae9ca",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Demo Charts on an app",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "titleAlignment",
+							"grouping": "Properties",
+							"value": "Center",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "d631e92d-9bbd-474c-f618-1cfd19c4e2bd",
+							"fieldName": "VBox",
+							"fieldParent": "a7dfc1e7-f511-484b-f7cc-8639fb804d35",
+							"fieldType": "sap.m.VBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiSmallMargin",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignItems",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "8951e046-75ec-4c1a-f5d2-e3c490986d09",
+									"fieldName": "oTitle1",
+									"fieldParent": "d631e92d-9bbd-474c-f618-1cfd19c4e2bd",
+									"fieldType": "sap.m.Title",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Using Highcharts external library",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "90be3f57-f351-4904-e7d3-f2845b81f50f",
+									"fieldName": "HTMLObject",
+									"fieldParent": "d631e92d-9bbd-474c-f618-1cfd19c4e2bd",
+									"fieldType": "sap.ui.core.HTML",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "57c18b9c-c5a2-48c0-8c67-35bafa0a70e2",
+											"fieldName": "HTML",
+											"fieldParent": "90be3f57-f351-4904-e7d3-f2845b81f50f",
+											"fieldType": "neptune.Html",
+											"script": "file://script/neptune.Html/HTML.script",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "9ce99d30-199b-46bd-c394-dd30f80d4bc3",
+							"fieldName": "VBox1",
+							"fieldParent": "a7dfc1e7-f511-484b-f7cc-8639fb804d35",
+							"fieldType": "sap.m.VBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiSmallMargin",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignItems",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "be5c4649-d9ce-4e1e-84ae-7a32e1a9cb69",
+									"fieldName": "oTitle",
+									"fieldParent": "9ce99d30-199b-46bd-c394-dd30f80d4bc3",
+									"fieldType": "sap.m.Title",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Using NAIA (Neptune AI built chart)",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "ad468c6a-017b-4080-a587-b38c3ed1585a",
+									"fieldName": "AiChart",
+									"fieldParent": "9ce99d30-199b-46bd-c394-dd30f80d4bc3",
+									"fieldType": "neptune.chart.aichart",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "afterRendering",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/neptune.chart.aichart/AiChart/afterRendering.js",
+											"language": "javascript",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "3b2b2eff-0f81-41e5-bdb3-bdc19c9661d6",
+					"fieldName": "Javascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Javascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.3.5.1530",
+	"application": "jlr_gauge",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "file:///header.html",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": true,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e"
+}

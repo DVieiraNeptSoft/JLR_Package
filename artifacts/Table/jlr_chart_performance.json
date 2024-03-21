@@ -1,0 +1,33 @@
+{
+	"id": "7d86cc14-b2ba-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-24T12:14:14.513Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "ff4da3bd-fa20-403f-f277-7587db56a78c",
+			"fieldName": "wharehouseName",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6f77913c-0da1-4375-d5ff-81a4c5c9f340",
+			"fieldName": "performance",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"precision": "20",
+			"scale": "2"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "jlr_chart_performance",
+	"description": null,
+	"ver": "24.2.5.166",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

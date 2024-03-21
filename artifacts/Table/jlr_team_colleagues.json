@@ -1,0 +1,57 @@
+{
+	"id": "aabe2ed0-c7ba-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-24T14:49:49.216Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "31e206da-1552-4bf5-c98e-dd9b6f3574ad",
+			"fieldName": "warehouseID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Warehouse ID",
+			"isNullable": true
+		},
+		{
+			"id": "10ec2d12-6432-47c8-a61f-86a0145c9b2d",
+			"fieldName": "departmentID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Department ID",
+			"isNullable": true
+		},
+		{
+			"id": "c54f6d41-9881-4c7a-fc26-b13ea67e0467",
+			"fieldName": "teamID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Team ID",
+			"isNullable": true
+		},
+		{
+			"id": "f4767245-cc0b-4046-b034-98de19888a4d",
+			"fieldName": "colleagueID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Colleague ID",
+			"isNullable": true
+		},
+		{
+			"id": "89632011-75ac-4f22-af7e-c77c429cfe8c",
+			"fieldName": "colleagueName",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Colleague Name",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "jlr_team_colleagues",
+	"description": null,
+	"ver": "24.2.5.169",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

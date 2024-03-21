@@ -1,0 +1,33 @@
+{
+	"id": "6577a749-c7ba-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-24T14:46:02.673Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "8164cbd9-a20f-4edd-d9c8-fb870cb9247c",
+			"fieldName": "warehouseID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Warehouse ID",
+			"isNullable": true
+		},
+		{
+			"id": "14ecabae-53d7-431e-ccf5-068bab6d19eb",
+			"fieldName": "warehouseName",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Warehouse Name",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "jlr_warehouse",
+	"description": null,
+	"ver": "24.2.5.1610",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

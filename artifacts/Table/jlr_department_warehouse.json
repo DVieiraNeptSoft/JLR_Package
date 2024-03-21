@@ -1,0 +1,41 @@
+{
+	"id": "cd2d9590-c7ba-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-24T14:48:01.923Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "1c3e7da6-f5b7-4dae-8670-aafd4707b788",
+			"fieldName": "warehouseID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Warehouse ID",
+			"isNullable": true
+		},
+		{
+			"id": "d968fb8b-164d-42a4-87c5-569d8c266dbe",
+			"fieldName": "departmentID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Department ID",
+			"isNullable": true
+		},
+		{
+			"id": "deb3eca2-8fad-4c83-9a77-c3c0dcde9e49",
+			"fieldName": "departmentName",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Department Name",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "jlr_department_warehouse",
+	"description": null,
+	"ver": "24.2.5.168",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

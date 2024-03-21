@@ -1,0 +1,89 @@
+{
+	"id": "78314bff-e8b9-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-23T12:14:50.806Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "60f052c5-3ae8-4110-8d18-37bc9373bcc0",
+			"fieldName": "colleagueId",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "ID"
+		},
+		{
+			"id": "828b04c7-54e3-42e4-c028-1de2d7be8f7f",
+			"fieldName": "taskCode",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Task Code",
+			"isNullable": true
+		},
+		{
+			"id": "a5a13ab2-6f06-4814-9262-62bb4f25f1c5",
+			"fieldName": "description",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Description"
+		},
+		{
+			"id": "4df9b6bd-d62a-43fb-8d05-dbabdd68e22c",
+			"fieldName": "pi",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "PI",
+			"scale": "2",
+			"precision": "20"
+		},
+		{
+			"id": "1c16f3b8-3399-485e-92e1-e27af7c3fcfe",
+			"fieldName": "occurrences",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Occurrences",
+			"isNullable": true
+		},
+		{
+			"id": "b501a637-bee3-45e4-c6e5-a2c7f360c858",
+			"fieldName": "stdHours",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "Std Hours",
+			"isNullable": true,
+			"scale": "2",
+			"precision": "20"
+		},
+		{
+			"id": "7e6c6d15-e01c-41aa-a0aa-15c3597d0284",
+			"fieldName": "totalHours",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Total Hours",
+			"scale": "2",
+			"precision": "20"
+		},
+		{
+			"id": "c1b69b6c-bf42-433d-dc78-7c104e69a18c",
+			"fieldName": "idleHours",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Idle Hours",
+			"scale": "2",
+			"precision": "20"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "jlr_task",
+	"description": null,
+	"ver": "24.2.5.168",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

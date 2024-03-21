@@ -1,0 +1,8 @@
+const binding = TableColleagues.getBinding("items");
+const filter = new sap.ui.model.Filter({
+    filters: [
+        new sap.ui.model.Filter("colleagueName", "Contains", this.getValue())
+    ],
+    and: false
+})
+binding.filter([filter]);

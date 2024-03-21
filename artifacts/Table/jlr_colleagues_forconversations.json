@@ -1,0 +1,33 @@
+{
+	"id": "14d29631-a3bb-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-25T17:00:11.600Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "fb42b914-6779-42ea-e406-aa90316067a5",
+			"fieldName": "colleagueID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Colleague ID",
+			"isNullable": true
+		},
+		{
+			"id": "4e7e9a8e-5c5e-4d99-b5c7-aa0135af8284",
+			"fieldName": "colleagueName",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Colleague Name",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "jlr_colleagues_forconversations",
+	"description": null,
+	"ver": "24.2.5.167",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

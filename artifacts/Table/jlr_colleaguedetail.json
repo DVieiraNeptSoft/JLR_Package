@@ -1,0 +1,115 @@
+{
+	"id": "939a205b-f9b9-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-23T14:11:57.696Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "7000d132-bc55-4fdc-9cb7-d8eeed1f872d",
+			"fieldName": "colleagueId",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "ID"
+		},
+		{
+			"id": "25c55dc1-e330-4620-e72b-769b67674c9e",
+			"fieldName": "task",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Name"
+		},
+		{
+			"id": "31a9c0c2-6f92-423e-e312-eedff82daad0",
+			"fieldName": "description",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Description"
+		},
+		{
+			"id": "3a2cc807-2e8b-478a-81c4-b76b9f975f63",
+			"fieldName": "fromDateTime",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "From Date/Time"
+		},
+		{
+			"id": "00ddab21-35a5-4beb-bb24-3dfeaaa64b1b",
+			"fieldName": "toDateTime",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "To Date/Time"
+		},
+		{
+			"id": "ee976885-9f53-4a04-ed39-9bfd527ea0ef",
+			"fieldName": "pi",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "PI",
+			"precision": "20",
+			"scale": "2"
+		},
+		{
+			"id": "60995428-1a03-4b31-c725-8b624319b651",
+			"fieldName": "stdMins",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "Std Mins",
+			"isNullable": true,
+			"precision": "20",
+			"scale": "2"
+		},
+		{
+			"id": "761ae123-f129-4e92-a0cb-3ab708add464",
+			"fieldName": "totalMins",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Total Mins",
+			"precision": "20",
+			"scale": "2"
+		},
+		{
+			"id": "df2e8a3d-ab5d-4e35-fba4-731f8c8cbe25",
+			"fieldName": "idleMins",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Idle Mins",
+			"precision": "20",
+			"scale": "2"
+		},
+		{
+			"id": "307ddbb0-2775-4b5d-bdbc-05d9897eb4b3",
+			"fieldName": "breakMins",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Break Mins",
+			"precision": "20",
+			"scale": "2"
+		},
+		{
+			"id": "0d41eeb4-e176-4354-c867-d571ecf2b07a",
+			"fieldName": "taskType",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Task Type",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "jlr_colleaguedetail",
+	"description": "Table for JLR Colleague App",
+	"ver": "24.2.5.167",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

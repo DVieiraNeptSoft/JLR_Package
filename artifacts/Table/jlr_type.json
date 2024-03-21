@@ -1,0 +1,63 @@
+{
+	"id": "7fb61776-e7b9-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-23T12:03:52.523Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "f08b4238-ad92-45af-e740-8ab3a31375e0",
+			"fieldName": "colleagueId",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "ID"
+		},
+		{
+			"id": "64676eb8-8727-429a-b3ca-bed73ce3d8cf",
+			"fieldName": "type",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Type"
+		},
+		{
+			"id": "29324d71-a935-404b-e522-ca102ebdd6cf",
+			"fieldName": "pi",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "PI",
+			"precision": "20",
+			"scale": "2"
+		},
+		{
+			"id": "bc133057-5adb-4e45-aca1-0f11ca0cede2",
+			"fieldName": "totalHours",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Total Hours",
+			"precision": "20",
+			"scale": "2"
+		},
+		{
+			"id": "5b437815-62c4-47f0-f0af-39552a457829",
+			"fieldName": "idleHours",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Idle Hours",
+			"precision": "20",
+			"scale": "2"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "jlr_type",
+	"description": null,
+	"ver": "24.2.5.169",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,83 @@
+{
+	"id": "70225460-e3b9-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-23T11:34:36.616Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "2de89fb2-4ccd-4a51-b72b-d558ceb59b7e",
+			"fieldName": "colleagueId",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "ID"
+		},
+		{
+			"id": "1f03b12e-9f4e-4d94-f054-5dad66471d18",
+			"fieldName": "name",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Name"
+		},
+		{
+			"id": "ae2ae0c4-8712-45d0-c3c9-e90a268045c0",
+			"fieldName": "performance",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Performance",
+			"precision": "20",
+			"scale": "2"
+		},
+		{
+			"id": "c0c5bc32-461e-4e1e-a9d2-52fce6cde317",
+			"fieldName": "totalHours",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Total Hours",
+			"precision": "20",
+			"scale": "2"
+		},
+		{
+			"id": "aadc5dba-0739-4faa-9f6f-ce7a98af06d1",
+			"fieldName": "direct",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Direct",
+			"precision": "20",
+			"scale": "2"
+		},
+		{
+			"id": "7c5130e2-aa6e-4ef3-8281-c22600ed5539",
+			"fieldName": "indirect",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Indirect",
+			"precision": "20",
+			"scale": "2"
+		},
+		{
+			"id": "36581535-ab5a-49ad-e85b-73b7342a0292",
+			"fieldName": "idle",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Idle",
+			"precision": "20",
+			"scale": "2"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "jlr_colleague",
+	"description": "Table for JLR Colleague App",
+	"ver": "24.2.5.166",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

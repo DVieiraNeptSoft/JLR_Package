@@ -1,0 +1,371 @@
+{
+	"id": "80418b5e-a2bb-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-25T16:54:24.903Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "aecebf4b-f2ba-4674-9c97-e2380a900d9e",
+			"path": "/jlr_colleague_conversations",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "jlr_colleague_conversations"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "552e21e2-5b5a-4a91-b8c1-4293382f2942",
+			"path": "/jlr_colleague_conversations",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "jlr_colleague_conversations"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "jlr_colleague_conversations"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "d8a8cedc-be5f-4ff9-992a-e5ded250b17f",
+			"path": "/jlr_colleague_conversations",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "jlr_colleague_conversations"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "jlr_colleague_conversations"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "1582b9b5-a4f5-4f8b-aa7c-e312cf9c4e37",
+			"path": "/jlr_colleague_conversations",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "jlr_colleague_conversations"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "9f38f35e-53eb-4840-a8ae-01a74b46cd2c",
+			"path": "/jlr_colleague_conversations/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "1d6f8256-5090-48ae-8aba-405c35c2729d",
+			"name": "jlr_colleague_conversations",
+			"properties": [
+				{
+					"id": "813b6bef-7f8e-4e4b-be73-3de1e3c59b3a",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "7f5b4aff-8c5c-4d93-a31e-fe7725ac7a71",
+					"parent": "",
+					"name": "colleagueID",
+					"description": "Colleague ID",
+					"objectType": "integer"
+				},
+				{
+					"id": "10f443f7-0163-423c-9661-47532478c37c",
+					"parent": "",
+					"name": "colleagueName",
+					"description": "Colleague Name",
+					"objectType": "string"
+				},
+				{
+					"id": "6efee2ad-960e-4c29-9974-abc138afda77",
+					"parent": "",
+					"name": "conversationSubject",
+					"description": "Conversation Subject",
+					"objectType": "string"
+				},
+				{
+					"id": "9a482e98-0db8-46a0-ac35-09e28298c4f5",
+					"parent": "",
+					"name": "conversationText",
+					"description": "Conversation Text",
+					"objectType": "string"
+				},
+				{
+					"id": "d78e5153-0bf8-49e4-915c-976e5f6a3994",
+					"parent": "",
+					"name": "managerID",
+					"description": "Manager ID",
+					"objectType": "integer"
+				},
+				{
+					"id": "3cdbb917-18ab-4d88-8e3c-7a4cf8c5c5d8",
+					"parent": "",
+					"name": "managerEmail",
+					"description": "Manager Email",
+					"objectType": "string"
+				},
+				{
+					"id": "6596cdd4-ba9d-4efc-8479-b451d5ea723e",
+					"parent": "",
+					"name": "dateRegistered",
+					"description": "Date Registered",
+					"objectType": "string"
+				},
+				{
+					"id": "c9338661-0e2e-45f9-ac0a-35fe39f7637d",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "80787dca-9aa1-4556-8327-1c019593cdee",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "99bbdf38-4ff5-495e-916c-7b712ce82a8f",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "d8b72f5f-7fd7-4faf-ac09-10f42039f435",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "f897c30f-aa28-40cc-9d9f-04a5493a4561",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "8e33e9ba-8ab1-4a75-9467-b0fd33fbb432",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "5afc370d-42c6-43b0-bcb7-60ac2ca2be92",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "0ce74991-d272-447a-ad5b-e9fcedc7fc9b",
+			"name": "count",
+			"properties": [
+				{
+					"id": "647b9dd5-a57c-4312-9af8-a5454b784fdf",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "jlr_colleague_conversations",
+	"endpoint": "/api/entity",
+	"ver": "24.2.5.1557",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

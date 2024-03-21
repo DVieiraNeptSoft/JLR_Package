@@ -1,0 +1,49 @@
+{
+	"id": "dfefe6aa-c7ba-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-24T14:48:46.080Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "5a70a584-e8c1-4da3-86b3-becf026ed475",
+			"fieldName": "warehouseID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Warehouse ID",
+			"isNullable": true
+		},
+		{
+			"id": "a07e1bf9-8500-488b-fc13-5e9501306838",
+			"fieldName": "departmentID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Department ID",
+			"isNullable": true
+		},
+		{
+			"id": "2b6ed102-d0a6-4ee6-b10b-4b8639275baa",
+			"fieldName": "teamID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Team ID",
+			"isNullable": true
+		},
+		{
+			"id": "a0a6e066-08b2-4800-dcee-6be208228155",
+			"fieldName": "teamName",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Team Name",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "jlr_team",
+	"description": null,
+	"ver": "24.2.5.169",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

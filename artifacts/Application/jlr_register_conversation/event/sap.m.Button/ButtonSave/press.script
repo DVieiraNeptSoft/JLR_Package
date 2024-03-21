@@ -1,0 +1,18 @@
+var options = {
+    parameters: {
+        "where": ""// Optional 
+    },
+    data: {
+        "colleagueID": modelSimpleFormConversation.oData.colleagueID,
+        "colleagueName": modelSimpleFormConversation.oData.colleagueName,
+        "conversationSubject": modelSimpleFormConversation.oData.conversationSubject,
+        "conversationText": modelSimpleFormConversation.oData.conversationText,
+        "managerID": 508901,
+        "managerEmail": "daniel.vieira@neptune-software.com",
+        "dateRegistered": modelSimpleFormConversation.oData.dateRegistered,
+    }
+};
+
+apisaveConversation(options);
+
+App.setBusy(true);

@@ -1,0 +1,12 @@
+// Replace yourField with FieldName
+const context = oEvent.oSource.getBindingContext();  
+
+// Get Entire Model
+const data = context.getObject();
+
+modelSimpleFormConversation.setData(data);
+
+DateTimePicker.setValue(new Date());
+modelSimpleFormConversation.oData.dateRegistered = new Date();
+
+App.to(PageDetail);

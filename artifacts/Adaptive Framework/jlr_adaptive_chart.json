@@ -1,0 +1,127 @@
+{
+	"id": "52dd36ae-b2ba-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-24T12:18:29.496Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": "1000",
+				"updateTime": 0
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": false
+			},
+			"table": {
+				"titleAlign": "center",
+				"chartHeight": "250",
+				"chartType": "pie",
+				"enableSorting": false,
+				"enableMonochrome": true,
+				"pieInnerSize": "",
+				"enable3D": false,
+				"alpha3D": 0,
+				"beta3D": 0,
+				"depth3D": 100,
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": true,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisTitleEnable": true,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": 1,
+				"title": "Overall Status Pie Chart",
+				"colorMonochrome": "#003c52",
+				"chartColor": ""
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "performance",
+				"label": "performance",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "wharehouseName",
+				"label": "wharehouseName",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"visible": true,
+				"name": "wharehouseName",
+				"text": "wharehouseName",
+				"fieldPos": 1,
+				"type": "category"
+			},
+			{
+				"visible": true,
+				"name": "performance",
+				"text": "performance",
+				"enableFilter": false,
+				"fieldPos": 2,
+				"type": "value"
+			}
+		],
+		"defaultVariant": {
+			"id": "188de3a4-2945-4fe6-bf80-7c10081e6198",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "jlr_adaptive_chart",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "eba14c93-b2ba-ee11-b661-0022489e2ba0",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.2.27.1417",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_chart",
+	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

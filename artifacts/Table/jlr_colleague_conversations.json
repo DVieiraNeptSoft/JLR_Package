@@ -1,0 +1,73 @@
+{
+	"id": "7e418b5e-a2bb-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-25T16:54:18.310Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "3d8a31a5-2775-4074-86f2-21b0c75a1b95",
+			"fieldName": "colleagueID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Colleague ID",
+			"isNullable": true
+		},
+		{
+			"id": "7eb38f98-34c0-4daa-81bc-b76828878963",
+			"fieldName": "colleagueName",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Colleague Name",
+			"isNullable": true
+		},
+		{
+			"id": "8cf46373-ae64-46a6-d673-99dd8a264adc",
+			"fieldName": "conversationSubject",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Conversation Subject",
+			"isNullable": true
+		},
+		{
+			"id": "92526c81-9968-47c4-9215-fd38d3d7a30c",
+			"fieldName": "conversationText",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Conversation Text",
+			"isNullable": true
+		},
+		{
+			"id": "660acc2b-0fc9-48ba-e732-f0ebbb170738",
+			"fieldName": "managerID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Manager ID",
+			"isNullable": true
+		},
+		{
+			"id": "24355138-4934-4727-bd33-f5ec277163e9",
+			"fieldName": "managerEmail",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Manager Email",
+			"isNullable": true
+		},
+		{
+			"id": "e33b6995-1e74-4932-f9b6-199c6459b901",
+			"fieldName": "dateRegistered",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "Date Registered",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "jlr_colleague_conversations",
+	"description": null,
+	"ver": "24.2.5.166",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,13 @@
+debugger;
+
+var options = {
+    parameters: {
+        "where": JSON.stringify({colleagueID: modelSimpleFormConversation.oData.colleagueID}), // Optional 
+        "select": "", // Optional 
+        "take": "", // Optional 
+        "skip": "", // Optional 
+        "order": "" // Optional 
+    }
+};
+
+apigetConversation(options);

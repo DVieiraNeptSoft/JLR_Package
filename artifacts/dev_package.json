@@ -1,0 +1,267 @@
+{
+	"id": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
+	"createdAt": "2024-02-05T15:53:55.320Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/DVieiraNeptSoft/JLR_Package"
+	},
+	"name": "JLR_Package",
+	"description": null,
+	"ver": "24.3.21.1440",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "e19c9088-a2bb-ee11-b661-0022489e2ba0",
+			"application": "jlr_register_conversation",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "D35A91C3-3EC4-EE11-85F9-0022489E2E3E"
+			}
+		},
+		{
+			"id": "cc8e4f70-afba-ee11-b661-0022489e2ba0",
+			"application": "jlr_gauge",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "D35A91C3-3EC4-EE11-85F9-0022489E2E3E"
+			}
+		},
+		{
+			"id": "aab1cf58-ebb9-ee11-b661-0022489e2ba0",
+			"application": "jlr_colleague",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "D35A91C3-3EC4-EE11-85F9-0022489E2E3E"
+			}
+		},
+		{
+			"id": "8f5e58f8-9aba-ee11-b661-0022489e2ba0",
+			"application": "jlr_inbound",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "D35A91C3-3EC4-EE11-85F9-0022489E2E3E"
+			}
+		},
+		{
+			"id": "5d213435-c4ba-ee11-b661-0022489e2ba0",
+			"application": "jlr_company_overview",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "D35A91C3-3EC4-EE11-85F9-0022489E2E3E"
+			}
+		},
+		{
+			"id": "54494541-adba-ee11-b661-0022489e2ba0",
+			"application": "jlr_charts",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "D35A91C3-3EC4-EE11-85F9-0022489E2E3E"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "c196f537-a3bb-ee11-b661-0022489e2ba0",
+			"name": "jlr_colleagues_forConversations",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "b762f86f-f9b9-ee11-b661-0022489e2ba0",
+			"name": "jlr_colleaguedetail API",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "80418b5e-a2bb-ee11-b661-0022489e2ba0",
+			"name": "jlr_colleague_conversations",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "58e72701-ebb9-ee11-b661-0022489e2ba0",
+			"name": "jlr_type API",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "5214e0c3-eab9-ee11-b661-0022489e2ba0",
+			"name": "jlr_department API",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "219d16d7-eab9-ee11-b661-0022489e2ba0",
+			"name": "jlr_task API",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "18242632-fbb9-ee11-b661-0022489e2ba0",
+			"name": "jlr_colleague API",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "dfefe6aa-c7ba-ee11-b661-0022489e2ba0",
+			"name": "jlr_team",
+			"description": null
+		},
+		{
+			"id": "cd2d9590-c7ba-ee11-b661-0022489e2ba0",
+			"name": "jlr_department_warehouse",
+			"description": null
+		},
+		{
+			"id": "aabe2ed0-c7ba-ee11-b661-0022489e2ba0",
+			"name": "jlr_team_colleagues",
+			"description": null
+		},
+		{
+			"id": "939a205b-f9b9-ee11-b661-0022489e2ba0",
+			"name": "jlr_colleaguedetail",
+			"description": "Table for JLR Colleague App"
+		},
+		{
+			"id": "7fb61776-e7b9-ee11-b661-0022489e2ba0",
+			"name": "jlr_type",
+			"description": null
+		},
+		{
+			"id": "7e418b5e-a2bb-ee11-b661-0022489e2ba0",
+			"name": "jlr_colleague_conversations",
+			"description": null
+		},
+		{
+			"id": "7d86cc14-b2ba-ee11-b661-0022489e2ba0",
+			"name": "jlr_chart_performance",
+			"description": null
+		},
+		{
+			"id": "78314bff-e8b9-ee11-b661-0022489e2ba0",
+			"name": "jlr_task",
+			"description": null
+		},
+		{
+			"id": "70225460-e3b9-ee11-b661-0022489e2ba0",
+			"name": "jlr_colleague",
+			"description": "Table for JLR Colleague App"
+		},
+		{
+			"id": "6577a749-c7ba-ee11-b661-0022489e2ba0",
+			"name": "jlr_warehouse",
+			"description": null
+		},
+		{
+			"id": "14d29631-a3bb-ee11-b661-0022489e2ba0",
+			"name": "jlr_colleagues_forconversations",
+			"description": null
+		},
+		{
+			"id": "13aa0cc5-e7b9-ee11-b661-0022489e2ba0",
+			"name": "jlr_department",
+			"description": null
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "b2f92f80-b7ba-ee11-b661-0022489e2ba0",
+			"name": "jlr_adaptive_line",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "838a299a-b5ba-ee11-b661-0022489e2ba0",
+			"name": "jlr_adaptive_barchart",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "52dd36ae-b2ba-ee11-b661-0022489e2ba0",
+			"name": "jlr_adaptive_chart",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "eb32d78a-9cba-ee11-b661-0022489e2ba0",
+			"description": null,
+			"name": " JLR_INBOUND"
+		},
+		{
+			"id": "a57f97df-b5ba-ee11-b661-0022489e2ba0",
+			"description": null,
+			"name": "jlr_barchart"
+		},
+		{
+			"id": "41921fa5-b7ba-ee11-b661-0022489e2ba0",
+			"description": null,
+			"name": "jlr_linechart"
+		},
+		{
+			"id": "124b08dd-afba-ee11-b661-0022489e2ba0",
+			"description": null,
+			"name": "jlr_chart"
+		}
+	],
+	"category": [
+		{
+			"id": "50ee4a39-f9b9-ee11-b661-0022489e2ba0",
+			"description": null,
+			"name": "jrl_tilegroup - Analytics - Site_performance"
+		},
+		{
+			"id": "21e28b27-e3b9-ee11-b661-0022489e2ba0",
+			"description": null,
+			"name": "jrl_tilegroup - Analytics"
+		},
+		{
+			"id": "15b91d4f-d5ba-ee11-b661-0022489e2ba0",
+			"description": null,
+			"name": "jlr_companyOverview"
+		}
+	],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "eba14c93-b2ba-ee11-b661-0022489e2ba0",
+			"name": "jlr_chart_performance",
+			"description": null
+		},
+		{
+			"id": "85e81706-e4b9-ee11-b661-0022489e2ba0",
+			"name": "jlr_colleague",
+			"description": "Table for JLR Colleague App"
+		}
+	],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}
