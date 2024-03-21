@@ -1,0 +1,68 @@
+[
+	{
+		"id": "e3b3d8c5-fc83-464c-87bd-192b5ae78e1f",
+		"createdAt": "1706108491178",
+		"updatedAt": "1706108640307",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"warehouseID": 1000,
+		"departmentID": 2000,
+		"teamID": 3000,
+		"teamName": "Team Warehouse Managers"
+	},
+	{
+		"id": "cd205a21-c236-4843-adf1-9e88b4d173aa",
+		"createdAt": "1706108491178",
+		"updatedAt": "1706112665811",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"warehouseID": 1001,
+		"departmentID": 2003,
+		"teamID": 3003,
+		"teamName": "Warehouse Workers"
+	},
+	{
+		"id": "bad1ad6a-dd75-412f-b8d9-f9fce074c714",
+		"createdAt": "1706108491178",
+		"updatedAt": "1706112665811",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"warehouseID": 1002,
+		"departmentID": 2005,
+		"teamID": 3005,
+		"teamName": "Warehouse Workers"
+	},
+	{
+		"id": "807d5291-1c7b-45ab-a696-b845a93fa90c",
+		"createdAt": "1706108491178",
+		"updatedAt": "1706112665811",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"warehouseID": 1002,
+		"departmentID": 2004,
+		"teamID": 3004,
+		"teamName": "Team Warehouse Managers"
+	},
+	{
+		"id": "680ab819-df26-4f0f-85d8-52f4c95f4d8b",
+		"createdAt": "1706108491178",
+		"updatedAt": "1706112121620",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"warehouseID": 1000,
+		"departmentID": 2001,
+		"teamID": 3001,
+		"teamName": "Warehouse Workers"
+	},
+	{
+		"id": "3118708a-1046-4d57-b983-388998a5a406",
+		"createdAt": "1706108491178",
+		"updatedAt": "1706112665811",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"warehouseID": 1001,
+		"departmentID": 2002,
+		"teamID": 3002,
+		"teamName": "Team Warehouse Managers"
+	}
+]

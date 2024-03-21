@@ -1,0 +1,29 @@
+[
+	{
+		"id": "e9e4726b-1d7d-4f29-8db3-502518e2b86e",
+		"createdAt": "1706108127197",
+		"updatedAt": "1706108127197",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"warehouseID": 1002,
+		"warehouseName": "Warehouse Munich"
+	},
+	{
+		"id": "b2dc44a4-96c3-4aee-907a-ab6038d70a98",
+		"createdAt": "1706108127197",
+		"updatedAt": "1706108127197",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"warehouseID": 1001,
+		"warehouseName": "Warehouse Madrid"
+	},
+	{
+		"id": "5c5cce1d-76ef-4771-a347-df2eaae06135",
+		"createdAt": "1706108127197",
+		"updatedAt": "1706108127197",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"warehouseID": 1000,
+		"warehouseName": "Warehouse London"
+	}
+]

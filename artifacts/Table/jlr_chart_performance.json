@@ -24,9 +24,9 @@
 	"foreignKeys": [],
 	"name": "jlr_chart_performance",
 	"description": null,
-	"ver": "24.2.5.166",
-	"enableAudit": false,
-	"includeDataInPackage": false,
+	"ver": "24.3.21.1559",
+	"enableAudit": true,
+	"includeDataInPackage": true,
 	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
 	"rolesRead": [],
 	"rolesWrite": []

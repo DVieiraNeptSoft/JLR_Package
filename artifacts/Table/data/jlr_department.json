@@ -1,0 +1,26 @@
+[
+	{
+		"id": "70eb33ac-c88a-4e43-9662-1662e6d8bfd6",
+		"createdAt": "1706020649958",
+		"updatedAt": "1706020649958",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"colleagueId": 12345,
+		"department": "Indirect",
+		"pi": 59.58,
+		"totalHours": 0.84,
+		"idleHours": 0.31
+	},
+	{
+		"id": "221de223-7b39-4f98-8302-5e496294eac0",
+		"createdAt": "1706020649958",
+		"updatedAt": "1706021770584",
+		"createdBy": "daniel.vieira@neptune-software.com",
+		"updatedBy": "daniel.vieira@neptune-software.com",
+		"colleagueId": 12345,
+		"department": "Fork",
+		"pi": 58.66,
+		"totalHours": 1.05,
+		"idleHours": 0.11
+	}
+]

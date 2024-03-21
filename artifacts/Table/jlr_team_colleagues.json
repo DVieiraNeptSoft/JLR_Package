@@ -48,9 +48,9 @@
 	"foreignKeys": [],
 	"name": "jlr_team_colleagues",
 	"description": null,
-	"ver": "24.2.5.169",
-	"enableAudit": false,
-	"includeDataInPackage": false,
+	"ver": "24.3.21.162",
+	"enableAudit": true,
+	"includeDataInPackage": true,
 	"package": "d35a91c3-3ec4-ee11-85f9-0022489e2e3e",
 	"rolesRead": [],
 	"rolesWrite": []
